@@ -17,55 +17,55 @@ const Contact = (props) => {
         }
 
     }
-  return <section class={`contact ${props.mode?'':'temp'}`} id="contact">
-  <div class="max-width">
-      <h2 class="title">Contact me</h2>
-      <div class="contact-content">
-          <div class="column left">
-              <div class="text">Get in Touch</div>
+  return <section className={`contact ${props.mode?'':'temp'}`} id="contact">
+  <div className="max-width">
+      <h2 className="title">Contact me</h2>
+      <div className="contact-content">
+          <div className="column left">
+              <div className="text">Get in Touch</div>
               <p>Connect with me for projects,discussion,programming. I am beginner in this field so come and join with me.</p>
-              <div class="icons">
-                  <div class="row">
-                      <i class="fas fa-user"></i>
-                      <div class="info">
-                          <div class="head">Name</div>
-                          <div class="sub-title">Anirban Dash</div>
+              <div className="icons">
+                  <div className="row">
+                      <i className="fas fa-user"></i>
+                      <div className="info">
+                          <div className="head">Name</div>
+                          <div className="sub-title">Anirban Dash</div>
                       </div>
                   </div>
-                  <div class="row">
-                      <i class="fas fa-map-marker-alt"></i>
-                      <div class="info">
-                          <div class="head">Address</div>
-                          <div class="sub-title">Jhargram,West Bengal,India</div>
+                  <div className="row">
+                      <i className="fas fa-map-marker-alt"></i>
+                      <div className="info">
+                          <div className="head">Address</div>
+                          <div className="sub-title">Jhargram,West Bengal,India</div>
                       </div>
                   </div>
-                  <div class="row">
-                      <i class="fas fa-envelope"></i>
-                      <div class="info">
-                          <div class="head">Email</div>
-                          <div class="sub-title">dashanirban275@gmail.com</div>
+                  <div className="row">
+                      <i className="fas fa-envelope"></i>
+                      <div className="info">
+                          <div className="head">Email</div>
+                          <div className="sub-title">dashanirban275@gmail.com</div>
                       </div>
                   </div>
               </div>
           </div>
-          <div class="column right">
-              <div class="text">Message me</div>
+          <div className="column right">
+              <div className="text">Message me</div>
               <form onSubmit={sentEmail} id='myForm'>
-                  <div class="fields">
-                      <div class="field name">
+                  <div className="fields">
+                      <div className="field name">
                           <input type="text" name='name' placeholder="Name" required/>
                       </div>
-                      <div class="field email">
+                      <div className="field email">
                           <input type="email" name='email' placeholder="Email" required/>
                       </div>
                   </div>
-                  <div class="field">
+                  <div className="field">
                       <input type="text" name='subject' placeholder="Subject" required/>
                   </div>
-                  <div class="field textarea">
+                  <div className="field textarea">
                       <textarea cols="30" rows="10" name='message' placeholder="Message.." required></textarea>
                   </div>
-                  <div class="button-area">
+                  <div className="button-area">
                       <button type="submit">Send message</button>
                   </div>
               </form>
