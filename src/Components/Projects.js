@@ -13,35 +13,35 @@ const Projects = (props) => {
           <div className="card">
               <div className="box">
                   <img src={project1} alt=""/>
-                  <div className="text">School System</div>
+                  <div className="text"><a href='https://github.com/Anirban-dash/School-Information-System'>School System</a></div>
                   <p>This is a dynamic website using php and MySql. </p>
               </div>
           </div>
           <div className="card">
               <div className="box">
                   <img src={project2} alt=""/>
-                  <div className="text">News App</div>
+                  <div className="text"><a href='https://github.com/Anirban-dash/NewsDose'>News App</a></div>
                   <p>This is a api based web application using React.</p>
               </div>
           </div>
           <div className="card">
               <div className="box">
                   <img src={project3} alt=""/>
-                  <div className="text">Ecommerce Website</div>
+                  <div className="text"><a href='https://github.com/Anirban-dash/Web-dev.github.io'>Ecommerce Website</a></div>
                   <p>This is a full stack Ecommerce website using php and MySql.</p>
               </div>
           </div>
           <div className="card">
               <div className="box">
                   <img src={project4} alt=""/>
-                  <div className="text">Portfolio</div>
+                  <div className="text"><a href='https://github.com/Anirban-dash/MyPortFolio'>Portfolio</a></div>
                   <p>It is my Portfolio usimg React.The website where you are now</p>
               </div>
           </div>
           <div className="card">
               <div className="box">
                   <img src={project5} alt=""/>
-                  <div className="text">Jokes Telling Site</div>
+                  <div className="text"><a href='https://github.com/Anirban-dash/Jokes_Website'>Jokes Telling Site</a></div>
                   <p>An api based web app using AJAX and shows never ending jokes.</p>
               </div>
           </div>
