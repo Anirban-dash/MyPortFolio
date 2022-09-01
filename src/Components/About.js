@@ -1,7 +1,7 @@
 import React from 'react';
 import Photo from './images/myPhoto.jpg'
 import './style.css';
-import Resume from './Anirban_Dash_Resume.pdf'
+import Resume from './AnirbanDash_Resume.pdf'
 const About = (props) => {
   return <section className={`about ${props.mode?'':'temp'}`} id="about">
   <div className="max-width">

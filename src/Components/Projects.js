@@ -5,6 +5,7 @@ import project2 from './images/project-2.png';
 import project3 from './images/project-3.png';
 import project4 from './images/project-4.png';
 import project5 from './images/project-5.png';
+import project6 from './images/project-6.png';
 const Projects = (props) => {
   return     <section className={`teams ${props.mode?'':'temp'}`} id="teams">
   <div className="max-width">
@@ -43,6 +44,13 @@ const Projects = (props) => {
                   <img src={project5} alt=""/>
                   <div className="text"><a href='https://github.com/Anirban-dash/Jokes_Website'>Jokes Telling Site</a></div>
                   <p>An api based web app using AJAX and shows never ending jokes.</p>
+              </div>
+          </div>
+          <div className="card">
+              <div className="box">
+                  <img src={project6} alt=""/>
+                  <div className="text"><a href='https://github.com/Anirban-dash/Quizhub'>QuizHub</a></div>
+                  <p>This is a quiz giving website,where one user can create their account with their profile picture.</p>
               </div>
           </div>
       </div>
